@@ -1,0 +1,173 @@
+.batman-logo {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(0.5);
+}
+
+.batman-logo::before {
+  content: '';
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(255, 251, 59, 0.2) 0%, rgba(255, 251, 59, 0) 70%);
+  border-radius: 50%;
+  transform: translate(-25%, -25%);
+  animation: pulse 2s infinite;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: translate(-25%, -25%) scale(1);
+    opacity: 0.5;
+  }
+  50% {
+    transform: translate(-25%, -25%) scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translate(-25%, -25%) scale(1);
+    opacity: 0.5;
+  }
+}
+
+.board {
+  height: 150px;
+  width: 250px;
+  position: relative;
+  overflow: hidden;
+}
+
+.outer-circle {
+  position: absolute;
+  height: 130px;
+  width: 230px;
+  border-radius: 50%;
+  border: 6px solid #000;
+  background: #fffb3b;
+  top: 3px;
+  left: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 30px rgba(255, 251, 59, 0.5);
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(255, 251, 59, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 251, 59, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(255, 251, 59, 0.5);
+  }
+}
+
+.bat {
+  background: #000;
+  position: absolute;
+  height: 112px;
+  width: 213px;
+  border-radius: 50%;
+  top: 9px;
+  left: 9px;
+}
+
+.sphere-1 {
+  background: #fffb3b;
+  position: absolute;
+  height: 70px;
+  width: 33px;
+  border-radius: 50%;
+  top: 67px;
+  left: 44px;
+  transform: rotate(-41deg);
+}
+
+.sphere-2 {
+  background: #fffb3b;
+  position: absolute;
+  height: 70px;
+  width: 38px;
+  border-radius: 50%;
+  top: 73px;
+  left: 68px;
+  transform: rotate(-15deg);
+}
+
+.sphere-3 {
+  background: #fffb3b;
+  position: absolute;
+  height: 70px;
+  width: 33px;
+  border-radius: 50%;
+  top: 67px;
+  right: 44px;
+  transform: rotate(41deg);
+}
+
+.sphere-4 {
+  background: #fffb3b;
+  position: absolute;
+  height: 70px;
+  width: 38px;
+  border-radius: 50%;
+  top: 73px;
+  right: 68px;
+  transform: rotate(15deg);
+}
+
+.sphere-5 {
+  background: #fffb3b;
+  position: absolute;
+  height: 40px;
+  width: 37px;
+  border-radius: 50%;
+  top: 0px;
+  left: 57px;
+  transform: rotate(15deg);
+}
+
+.sphere-6 {
+  background: #fffb3b;
+  position: absolute;
+  height: 40px;
+  width: 37px;
+  border-radius: 50%;
+  top: 0px;
+  right: 57px;
+  transform: rotate(15deg);
+}
+
+.square-1 {
+  background: #fffb3b;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 0px;
+  left: 74px;
+}
+
+.square-2 {
+  background: #fffb3b;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 0px;
+  right: 74px;
+}
+
+.trapezoid {
+  top: 0px;
+  left: 95px;
+  position: absolute;
+  border-bottom: 12px solid #fffb3b;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  height: 0;
+  width: 11px;
+  transform: rotate(180deg);
+}
