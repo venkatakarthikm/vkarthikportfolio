@@ -19,7 +19,7 @@ const certificatesData = [
     issuer: "Red Hat",
     date: "Dec 23, 2024",
     image: "https://muchukarthik.onrender.com/rdhat.png",
-    verifyUrl: "https://udemy.com/certificate/123"
+    verifyUrl: "https://www.credly.com/badges/2ccddcb8-16f4-4b4e-bd94-e952453dbf72/public_url"
   },
   {
     id: 3,

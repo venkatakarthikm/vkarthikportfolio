@@ -22,6 +22,38 @@ const projectsData = [
     "tags": ["React", "Node.js", "MongoDB", "Express", "Sockets"]
   },
   {
+    "title": "streamyfilm",
+    "description": "A movie player for seamless streaming.",
+    "image": "https://muchukarthik.onrender.com/mp.png",
+    "github": "https://github.com/user/movie-player",
+    "live": "https://streamyfilm.vercel.app",
+    "tags": ["Movies", "Player", "Streaming"]
+  },
+  {
+    "title": "Video Downloader",
+    "description": "Download any video.",
+    "image": "https://muchukarthik.onrender.com/videodownload.png",
+    "github": "https://github.com/user/movie-player",
+    "live": "https://videodownloader-svk8.onrender.com",
+    "tags": ["Downloader", "Video Downloader"]
+  },
+  {
+    "title": "Weather Flow",
+    "description": "Get live weather Updates",
+    "image": "wf.png",
+    "github": "https://github.com/user/movie-player",
+    "live": "https://weatherflow.onrender.com",
+    "tags": ["Weather", "GeoLocation","Api"]
+  },
+  {
+    "title": "Fourz Deals",
+    "description": "ecommerce ",
+    "image": "fd.png",
+    "github": "https://github.com/user/movie-player",
+    "live": "https://fourzdealshop.vercel.app",
+    "tags": ["ecommerce", "Payment Gateway - paypal","MongoDB","Express"]
+  },
+  {
     "title": "Movie Player",
     "description": "A movie player for seamless streaming.",
     "image": "https://muchukarthik.onrender.com/mp.png",
@@ -30,36 +62,12 @@ const projectsData = [
     "tags": ["Movies", "Player", "Streaming"]
   },
   {
-    "title": "X Comments Checker",
-    "description": "Compare users in the comment section.",
-    "image": "https://muchukarthik.onrender.com/xcomments.png",
-    "github": "https://github.com/user/movie-player",
-    "live": "https://xcomments.onrender.com/",
-    "tags": ["X", "Twitter", "Comments"]
-  },
-  {
     "title": "ECO LEARN",
     "description": "Sustainability education platform.",
     "image": "https://muchukarthik.onrender.com/jfsdsdp.png",
     "github": "https://github.com/user/movie-player",
     "live": "https://jfsd-sustainability-education-orbm.onrender.com/",
     "tags": ["Sustainable", "Education", "ECO LEARN"]
-  },
-  {
-    "title": "Verified Follower Counter",
-    "description": "To check verified followers on Twitter(X).",
-    "image": "https://muchukarthik.onrender.com/xfollow.png",
-    "github": "https://github.com/user/movie-player",
-    "live": "https://twitter-verified-follower-counter.onrender.com/",
-    "tags": ["X", "Twitter", "Followers"]
-  },
-  {
-    "title": "Twitter Engagement Checker",
-    "description": "To check the engagement of a Twitter(X) profile.",
-    "image": "https://muchukarthik.onrender.com/xengcheck.png",
-    "github": "https://github.com/user/movie-player",
-    "live": "https://mahesher-twitter-engagement-checker.onrender.com/",
-    "tags": ["X", "Twitter", "Engagement"]
   },
   {
     "title": "Rules App",
@@ -86,13 +94,30 @@ const projectsData = [
     "tags": ["Transcript", "YouTube"]
   },
   {
-    "title": "Video Downloader",
-    "description": "Download any video.",
-    "image": "https://muchukarthik.onrender.com/videodownload.png",
+    "title": "X Comments Checker",
+    "description": "Compare users in the comment section.",
+    "image": "https://muchukarthik.onrender.com/xcomments.png",
     "github": "https://github.com/user/movie-player",
-    "live": "https://videodownloader-svk8.onrender.com",
-    "tags": ["Downloader", "Video Downloader"]
+    "live": "https://xcomments.onrender.com/",
+    "tags": ["X", "Twitter", "Comments"]
   },
+  {
+    "title": "Verified Follower Counter",
+    "description": "To check verified followers on Twitter(X).",
+    "image": "https://muchukarthik.onrender.com/xfollow.png",
+    "github": "https://github.com/user/movie-player",
+    "live": "https://twitter-verified-follower-counter.onrender.com/",
+    "tags": ["X", "Twitter", "Followers"]
+  },
+  {
+    "title": "Twitter Engagement Checker",
+    "description": "To check the engagement of a Twitter(X) profile.",
+    "image": "https://muchukarthik.onrender.com/xengcheck.png",
+    "github": "https://github.com/user/movie-player",
+    "live": "https://mahesher-twitter-engagement-checker.onrender.com/",
+    "tags": ["X", "Twitter", "Engagement"]
+  },
+  
   // Add more projects here
 ];
 
