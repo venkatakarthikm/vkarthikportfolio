@@ -24,7 +24,7 @@ const Home = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="https://muchukarthik.onrender.com/1000004233.jpg"
+            src="muchuvenkatakarthik.png"
             alt="Profile"
             className="rounded-full"
           />
