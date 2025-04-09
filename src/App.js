@@ -8,6 +8,7 @@ import Certificates from './components/Certificates';
 import Footer from './components/Footer';
 import Lightning from './components/Lightning';
 import './index.css';
+import Meta from "./components/Meta";
 
 function App() {
   // const [lightningPosition, setLightningPosition] = useState({ x: -100, y: -100 });
@@ -86,6 +87,7 @@ function App() {
       <Projects />
       <Certificates />
       <Footer />
+      <Meta />
     </div>
   );
 }

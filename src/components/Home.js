@@ -24,7 +24,7 @@ const Home = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="muchuvenkatakarthik.png"
+            src="mkv.png"
             alt="Profile"
             className="rounded-full"
           />
