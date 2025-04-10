@@ -24,8 +24,8 @@ const Home = () => {
           transition={{ duration: 0.8 }}
         >
           <img
-            src="mkv.png"
-            alt="Profile"
+            src="muchuvenkatakarthik.png"
+            alt="muchuvenkatakarthikimage"
             className="rounded-full"
           />
         </motion.div>
