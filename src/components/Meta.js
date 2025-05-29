@@ -6,11 +6,11 @@ export default function Meta() {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Muchu Venkata Karthik",
-    "url": "https://mvkarthik.onrender.com",
+    "url": "http://muchukarthik.me/",
     "jobTitle": "Web Developer",
     "worksFor": {
       "@type": "Organization",
-      "name": "Self-Employed"
+      "name": "Student"
     },
     "alumniOf": {
       "@type": "EducationalOrganization",
@@ -43,7 +43,7 @@ export default function Meta() {
   return (
     <Helmet>
       {/* Improved title with better keyword usage */}
-      <title>Muchu Venkata Karthik | Web Developer Portfolio</title>
+      <title>Muchu Venkata Karthik Portfolio</title>
       
       {/* Enhanced meta description with more details */}
       <meta 
@@ -63,27 +63,27 @@ export default function Meta() {
       <html lang="en" />
       
       {/* Canonical URL to prevent duplicate content issues */}
-      <link rel="canonical" href="https://mvkarthik.onrender.com/" />
+      <link rel="canonical" href="http://muchukarthik.me" />
       
       {/* Open Graph metadata for social sharing */}
-      <meta property="og:title" content="Muchu Venkata Karthik | Web Developer Portfolio" />
+      <meta property="og:title" content="Muchu Venkata Karthik Portfolio" />
       <meta 
         property="og:description" 
-        content="Professional portfolio of Muchu Venkata Karthik, a web developer specializing in React, Node.js, and full-stack development. View my projects and skills." 
+        content="portfolio of Muchu Venkata Karthik, a web developer specializing in React, Node.js, and full-stack development. View my projects and skills." 
       />
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://mvkarthik.onrender.com/" />
-      <meta property="og:image" content="https://mvkarthik.onrender.com/muchuvenkatakarthik.png" />
+      <meta property="og:url" content="http://muchukarthik.me/" />
+      <meta property="og:image" content="http://muchukarthik.me/muchuvenkatakarthik.png" />
       <meta property="og:site_name" content="Muchu Venkata Karthik Portfolio" />
       
       {/* Twitter Card data */}
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Muchu Venkata Karthik | Web Developer Portfolio" />
+      <meta name="twitter:title" content="Muchu Venkata Karthik Portfolio" />
       <meta 
         name="twitter:description" 
-        content="Professional portfolio of Muchu Venkata Karthik, a web developer specializing in React, Node.js, and full-stack development." 
+        content="portfolio of Muchu Venkata Karthik, a web developer specializing in React, Node.js, and full-stack development." 
       />
-      <meta name="twitter:image" content="https://mvkarthik.onrender.com/muchuvenkatakarthik.png" />
+      <meta name="twitter:image" content="http://muchukarthik.me/muchuvenkatakarthik.png" />
       
       {/* Mobile optimization */}
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />

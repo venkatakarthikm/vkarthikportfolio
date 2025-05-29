@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://mvkarthik.onrender.com/sitemap.xml
+Sitemap: http://muchukarthik.me/sitemap.xml
